@@ -1,0 +1,387 @@
+[
+  {
+    "name": "BILLY Bookcase",
+    "category": "Furniture",
+    "description": "A versatile and classic bookcase, perfect for storing books and decorative items.",
+    "price": 49.99,
+    "image": "https://example.com/billy_bookcase.jpg"
+  },
+  {
+    "name": "LACK Coffee Table",
+    "category": "Furniture",
+    "description": "A simple, modern coffee table with a sleek design, ideal for small spaces.",
+    "price": 29.99,
+    "image": "https://example.com/lack_coffee_table.jpg"
+  },
+  {
+    "name": "POÄNG Armchair",
+    "category": "Furniture",
+    "description": "Comfortable armchair with a durable, curved wooden frame and soft cushions.",
+    "price": 79.99,
+    "image": "https://example.com/poang_armchair.jpg"
+  },
+  {
+    "name": "MALM Bed Frame",
+    "category": "Furniture",
+    "description": "Minimalist bed frame with a smooth veneer finish and ample storage space underneath.",
+    "price": 199.99,
+    "image": "https://example.com/malm_bed_frame.jpg"
+  },
+  {
+    "name": "KALLAX Shelf Unit",
+    "category": "Storage",
+    "description": "Flexible shelf unit that can be used to store or display items, with compartments for baskets or bins.",
+    "price": 69.99,
+    "image": "https://example.com/kallax_shelf_unit.jpg"
+  },
+  {
+    "name": "RANARP Pendant Lamp",
+    "category": "Lighting",
+    "description": "Vintage-style pendant lamp, perfect for creating a cozy atmosphere in any room.",
+    "price": 45.0,
+    "image": "https://example.com/ranarp_pendant_lamp.jpg"
+  },
+  {
+    "name": "HOVET Mirror",
+    "category": "Home Decor",
+    "description": "Large, full-length mirror that makes any room feel bigger and brighter.",
+    "price": 129.0,
+    "image": "https://example.com/hovet_mirror.jpg"
+  },
+  {
+    "name": "KLIPPAN Loveseat",
+    "category": "Furniture",
+    "description": "Compact loveseat with a contemporary design, perfect for small living spaces.",
+    "price": 249.0,
+    "image": "https://example.com/klippan_loveseat.jpg"
+  },
+  {
+    "name": "FÄRGRIK Dinnerware Set",
+    "category": "Kitchen",
+    "description": "Durable and practical 18-piece dinnerware set in a variety of colors.",
+    "price": 34.99,
+    "image": "https://example.com/fargrik_dinnerware_set.jpg"
+  },
+  {
+    "name": "GODMORGON Bathroom Cabinet",
+    "category": "Bathroom",
+    "description": "Wall-mounted bathroom cabinet with mirror doors and adjustable shelves.",
+    "price": 89.99,
+    "image": "https://example.com/godmorgon_bathroom_cabinet.jpg"
+  },
+  {
+    "name": "HEMNES Shoe Cabinet",
+    "category": "Storage",
+    "description": "Slim shoe cabinet that helps keep your hallway organized without taking up too much space.",
+    "price": 99.0,
+    "image": "https://example.com/hemnes_shoe_cabinet.jpg"
+  },
+  {
+    "name": "SINNERLIG Pendant Lamp",
+    "category": "Lighting",
+    "description": "Handmade bamboo pendant lamp that casts a warm, natural glow in any room.",
+    "price": 69.99,
+    "image": "https://example.com/sinnerlig_pendant_lamp.jpg"
+  },
+  {
+    "name": "LURVIG Pet Bed",
+    "category": "Pet",
+    "description": "Comfortable and soft pet bed, designed to provide your furry friend with a cozy place to rest.",
+    "price": 25.0,
+    "image": "https://example.com/lurvig_pet_bed.jpg"
+  },
+  {
+    "name": "SMASKA Kids Tableware Set",
+    "category": "Kids",
+    "description": "Colorful, BPA-free tableware set for kids, includes plates, bowls, and cups.",
+    "price": 12.99,
+    "image": "https://example.com/smaska_kids_tableware_set.jpg"
+  },
+  {
+    "name": "SKUBB Storage Box Set",
+    "category": "Storage",
+    "description": "Set of collapsible fabric boxes, perfect for organizing closets or drawers.",
+    "price": 17.99,
+    "image": "https://example.com/skubb_storage_box_set.jpg"
+  },
+  {
+    "name": "ÄPPLARÖ Outdoor Dining Table",
+    "category": "Outdoor",
+    "description": "Sturdy wooden dining table, perfect for outdoor meals in the garden or patio.",
+    "price": 199.99,
+    "image": "https://example.com/applaro_outdoor_dining_table.jpg"
+  },
+  {
+    "name": "STOCKHOLM Rug",
+    "category": "Home Decor",
+    "description": "Wool rug with a bold, geometric pattern that adds warmth and style to any room.",
+    "price": 249.0,
+    "image": "https://example.com/stockholm_rug.jpg"
+  },
+  {
+    "name": "JOKKMOKK Dining Set",
+    "category": "Furniture",
+    "description": "Compact dining set with a table and four chairs, perfect for smaller spaces.",
+    "price": 149.0,
+    "image": "https://example.com/jokkmokk_dining_set.jpg"
+  },
+  {
+    "name": "RÖSKOG Utility Cart",
+    "category": "Storage",
+    "description": "Versatile metal utility cart that can be used in the kitchen, bathroom, or as a side table.",
+    "price": 39.99,
+    "image": "https://example.com/roskog_utility_cart.jpg"
+  },
+  {
+    "name": "TROFAST Storage Combination",
+    "category": "Kids",
+    "description": "Modular storage combination with removable bins, perfect for organizing kids' toys and books.",
+    "price": 69.99,
+    "image": "https://example.com/trofast_storage_combination.jpg"
+  },
+  {
+    "name": "GURLI Throw Blanket",
+    "category": "Home Decor",
+    "description": "Soft and lightweight throw blanket, perfect for adding warmth and color to your living room.",
+    "price": 9.99,
+    "image": "https://example.com/gurli_throw_blanket.jpg"
+  },
+  {
+    "name": "RÅSKOG Kitchen Trolley",
+    "category": "Kitchen",
+    "description": "Compact and stylish kitchen trolley, perfect for additional storage and workspace.",
+    "price": 59.99,
+    "image": "https://example.com/raskog_kitchen_trolley.jpg"
+  },
+  {
+    "name": "MÅLA Easel",
+    "category": "Kids",
+    "description": "Double-sided easel with a chalkboard and whiteboard, perfect for creative kids.",
+    "price": 24.99,
+    "image": "https://example.com/mala_easel.jpg"
+  },
+  {
+    "name": "EKET Cabinet Combination",
+    "category": "Storage",
+    "description": "Customizable storage solution with modular cabinets that can be stacked or mounted.",
+    "price": 99.0,
+    "image": "https://example.com/eket_cabinet_combination.jpg"
+  },
+  {
+    "name": "BRIMNES Wardrobe",
+    "category": "Furniture",
+    "description": "Stylish wardrobe with sliding doors and customizable interior storage options.",
+    "price": 179.0,
+    "image": "https://example.com/brimnes_wardrobe.jpg"
+  },
+  {
+    "name": "HÄRLANDA Sofa",
+    "category": "Furniture",
+    "description": "Spacious and comfortable sofa with deep seats and a soft, durable cover.",
+    "price": 499.0,
+    "image": "https://example.com/harlnda_sofa.jpg"
+  },
+  {
+    "name": "ODGER Chair",
+    "category": "Furniture",
+    "description": "Comfortable dining chair made from sustainable materials with a modern design.",
+    "price": 69.0,
+    "image": "https://example.com/odger_chair.jpg"
+  },
+  {
+    "name": "LOHALS Rug",
+    "category": "Home Decor",
+    "description": "Natural jute rug, durable and environmentally friendly, with a simple and modern look.",
+    "price": 79.0,
+    "image": "https://example.com/lohals_rug.jpg"
+  },
+  {
+    "name": "KARLSTAD Armchair",
+    "category": "Furniture",
+    "description": "Modern armchair with a sleek design and comfortable seating, available in various colors.",
+    "price": 199.0,
+    "image": "https://example.com/karlstad_armchair.jpg"
+  },
+  {
+    "name": "NORDEN Gateleg Table",
+    "category": "Furniture",
+    "description": "Space-saving table with foldable leaves and drawers, perfect for small dining areas.",
+    "price": 169.0,
+    "image": "https://example.com/norden_gateleg_table.jpg"
+  },
+  {
+    "name": "EKEDALEN Extendable Table",
+    "category": "Furniture",
+    "description": "Extendable dining table with a classic design, ideal for both small and large gatherings.",
+    "price": 249.0,
+    "image": "https://example.com/ekedalen_extendable_table.jpg"
+  },
+  {
+    "name": "FJÄLLBO TV Unit",
+    "category": "Furniture",
+    "description": "Industrial-style TV unit with open storage and a sturdy metal frame.",
+    "price": 99.99,
+    "image": "https://example.com/fjallbo_tv_unit.jpg"
+  },
+  {
+    "name": "MÖRBYLÅNGA Dining Table",
+    "category": "Furniture",
+    "description": "Solid wood dining table with a rustic look, perfect for large family meals.",
+    "price": 599.0,
+    "image": "https://example.com/morbylanga_dining_table.jpg"
+  },
+  {
+    "name": "VITTSJÖ Coffee Table",
+    "category": "Furniture",
+    "description": "Glass and metal coffee table with a clean, modern design.",
+    "price": 49.99,
+    "image": "https://example.com/vittsjo_coffee_table.jpg"
+  },
+  {
+    "name": "NOCKEBY Sofa",
+    "category": "Furniture",
+    "description": "Large, plush sofa with wide armrests and deep seats for ultimate comfort.",
+    "price": 799.0,
+    "image": "https://example.com/nockeby_sofa.jpg"
+  },
+  {
+    "name": "BESTÅ TV Unit",
+    "category": "Furniture",
+    "description": "Modular TV unit with doors and open shelves for a customizable setup.",
+    "price": 159.0,
+    "image": "https://example.com/besta_tv_unit.jpg"
+  },
+  {
+    "name": "KNARREVIK Side Table",
+    "category": "Furniture",
+    "description": "Compact and lightweight side table, perfect for small spaces.",
+    "price": 14.99,
+    "image": "https://example.com/knarrevik_side_table.jpg"
+  },
+  {
+    "name": "STORNAS Dining Table",
+    "category": "Furniture",
+    "description": "Traditional solid wood dining table, extendable for up to 6 people.",
+    "price": 329.0,
+    "image": "https://example.com/stornas_dining_table.jpg"
+  },
+  {
+    "name": "FRIHETEN Sleeper Sofa",
+    "category": "Furniture",
+    "description": "Convertible sofa with hidden storage and easy-to-use pull-out bed function.",
+    "price": 549.0,
+    "image": "https://example.com/friheten_sleeper_sofa.jpg"
+  },
+  {
+    "name": "ODENSVIK Sink Cabinet",
+    "category": "Bathroom",
+    "description": "Sink cabinet with soft-closing drawers and easy-to-clean surfaces.",
+    "price": 299.0,
+    "image": "https://example.com/odensvik_sink_cabinet.jpg"
+  },
+  {
+    "name": "RASKOG Utility Cart",
+    "category": "Storage",
+    "description": "Multi-purpose utility cart with three shelves, perfect for small spaces.",
+    "price": 39.99,
+    "image": "https://example.com/raskog_utility_cart.jpg"
+  },
+  {
+    "name": "FEJKA Artificial Plant",
+    "category": "Home Decor",
+    "description": "Low-maintenance artificial plant that adds a touch of greenery to any room.",
+    "price": 9.99,
+    "image": "https://example.com/fejka_artificial_plant.jpg"
+  },
+  {
+    "name": "STRANDMON Wing Chair",
+    "category": "Furniture",
+    "description": "Classic wing chair with a high back and comfortable cushioning, perfect for reading or relaxing.",
+    "price": 279.0,
+    "image": "https://example.com/strandmon_wing_chair.jpg"
+  },
+  {
+    "name": "SVALNÄS Wall Shelf",
+    "category": "Storage",
+    "description": "Wall-mounted shelving system with adjustable shelves, perfect for creating a customized storage solution.",
+    "price": 99.0,
+    "image": "https://example.com/svalnas_wall_shelf.jpg"
+  },
+  {
+    "name": "LINNMON Desk",
+    "category": "Furniture",
+    "description": "Simple and functional desk, perfect for home office or study spaces.",
+    "price": 49.99,
+    "image": "https://example.com/linnmon_desk.jpg"
+  },
+  {
+    "name": "RISATORP Basket",
+    "category": "Storage",
+    "description": "Metal basket with wooden handle, ideal for storing fruits, vegetables, or household items.",
+    "price": 14.99,
+    "image": "https://example.com/risatorp_basket.jpg"
+  },
+  {
+    "name": "MALM Chest of Drawers",
+    "category": "Furniture",
+    "description": "Spacious chest of drawers with a sleek, modern design and smooth drawer runners.",
+    "price": 179.0,
+    "image": "https://example.com/malm_chest_of_drawers.jpg"
+  },
+  {
+    "name": "KIVIK Sofa",
+    "category": "Furniture",
+    "description": "Modular sofa with deep seats and memory foam cushions for extra comfort.",
+    "price": 699.0,
+    "image": "https://example.com/kivik_sofa.jpg"
+  },
+  {
+    "name": "LISABO Dining Table",
+    "category": "Furniture",
+    "description": "Minimalist wooden dining table with rounded edges, perfect for modern interiors.",
+    "price": 199.0,
+    "image": "https://example.com/lisabo_dining_table.jpg"
+  },
+  {
+    "name": "HEMNES Daybed",
+    "category": "Furniture",
+    "description": "Daybed with 3 drawers and an extendable frame that transforms into a double bed.",
+    "price": 299.0,
+    "image": "https://example.com/hemnes_daybed.jpg"
+  },
+  {
+    "name": "VALLENTUNA Sleeper Module",
+    "category": "Furniture",
+    "description": "Modular sleeper seat that can be customized to create a comfortable sofa or bed.",
+    "price": 249.0,
+    "image": "https://example.com/vallentuna_sleeper_module.jpg"
+  },
+  {
+    "name": "IVAR Cabinet",
+    "category": "Storage",
+    "description": "Versatile storage cabinet made of solid wood, with adjustable shelves.",
+    "price": 99.0,
+    "image": "https://example.com/ivar_cabinet.jpg"
+  },
+  {
+    "name": "TOFTBO Bath Mat",
+    "category": "Bathroom",
+    "description": "Soft and absorbent bath mat, perfect for keeping your feet warm after a shower.",
+    "price": 7.99,
+    "image": "https://example.com/toftbo_bath_mat.jpg"
+  },
+  {
+    "name": "BERGMUND Dining Chair",
+    "category": "Furniture",
+    "description": "Comfortable dining chair with a padded seat and backrest, available in different fabrics.",
+    "price": 89.99,
+    "image": "https://example.com/bergmund_dining_chair.jpg"
+  },
+  {
+    "name": "RIBBA Picture Frame",
+    "category": "Home Decor",
+    "description": "Simple, clean-lined picture frame that fits both posters and photos.",
+    "price": 9.99,
+    "image": "https://example.com/ribba_picture_frame.jpg"
+  }
+]
