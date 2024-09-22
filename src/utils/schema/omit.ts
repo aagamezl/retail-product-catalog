@@ -1,20 +1,7 @@
-export type Schema = {
-  type: string
-  title: string
-  description: string
-  properties: Properties
-  required: string[]
-  additionalProperties: boolean
-}
+import type { Properties, Schema } from './schema-registry'
 
-export type Properties = {
-  [key: string]: {
-    type: string
-    description: string
-  }
-}
 export const omit = (schema: Schema, keys: string[]) => {
-  const cloned = structuredClone(schema)
+  const cloned: Schema = structuredClone(schema)
 
   cloned.required = cloned.required.filter(
     (property: string) => !keys.includes(property)
@@ -32,25 +19,4 @@ export const omit = (schema: Schema, keys: string[]) => {
   )
 
   return cloned
-}
-
-export const pick = (schema: Schema, keys: string[]) => {
-  return {
-    title: schema.title,
-    type: schema.type,
-    required: schema.required.filter((property: string) =>
-      keys.includes(property)
-    ),
-    properties: Object.entries(schema.properties).reduce(
-      (properties: Record<string, unknown>, [property, definition]) => {
-        if (keys.includes(property)) {
-          properties[property] = definition
-        }
-
-        return properties
-      },
-      {}
-    ),
-    additionalProperties: schema.additionalProperties
-  }
 }
