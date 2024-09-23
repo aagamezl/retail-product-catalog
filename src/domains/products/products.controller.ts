@@ -12,9 +12,9 @@ import { Logger } from '../../utils/logger'
 import { ErrorType, getError } from '../../utils'
 import { CONTENT_TYPE } from '../../utils/constants'
 
-import * as model from './products.model'
+import { model } from './products.model'
 
-export const create = async (
+const create = async (
   request: FastifyRequest<{ Body: ProductPayload }>,
   reply: FastifyReply
 ): Promise<FastifyReply> => {
@@ -38,7 +38,7 @@ export const create = async (
   }
 }
 
-export const getAll = async (
+const getAll = async (
   request: FastifyRequest<{ Querystring: ProductPagination }>,
   reply: FastifyReply
 ): Promise<FastifyReply> => {
@@ -64,33 +64,7 @@ export const getAll = async (
   }
 }
 
-export const search = async (
-  request: FastifyRequest<{ Querystring: ProductSearch }>,
-  reply: FastifyReply
-): Promise<FastifyReply> => {
-  try {
-    const records = await model.search(request.query)
-
-    return reply
-      .header('Content-Type', CONTENT_TYPE)
-      .status(StatusCodes.OK)
-      .send(records)
-  } catch (error) {
-    const UnexpectedError = error as FastifyError
-    const returnError: ErrorType = getError(UnexpectedError)
-
-    console.log(returnError)
-
-    Logger.error(UnexpectedError.message)
-
-    return reply
-      .header('Content-Type', CONTENT_TYPE)
-      .status(returnError.statusCode)
-      .send(returnError)
-  }
-}
-
-export const getById = async (
+const getById = async (
   request: FastifyRequest<{ Params: ProductId }>,
   reply: FastifyReply
 ): Promise<FastifyReply> => {
@@ -121,4 +95,37 @@ export const getById = async (
       .status(returnError.statusCode)
       .send(returnError)
   }
+}
+
+const search = async (
+  request: FastifyRequest<{ Querystring: ProductSearch }>,
+  reply: FastifyReply
+): Promise<FastifyReply> => {
+  try {
+    const records = await model.search(request.query)
+
+    return reply
+      .header('Content-Type', CONTENT_TYPE)
+      .status(StatusCodes.OK)
+      .send(records)
+  } catch (error) {
+    const UnexpectedError = error as FastifyError
+    const returnError: ErrorType = getError(UnexpectedError)
+
+    console.log(returnError)
+
+    Logger.error(UnexpectedError.message)
+
+    return reply
+      .header('Content-Type', CONTENT_TYPE)
+      .status(returnError.statusCode)
+      .send(returnError)
+  }
+}
+
+export const controller = {
+  create,
+  getAll,
+  getById,
+  search
 }
