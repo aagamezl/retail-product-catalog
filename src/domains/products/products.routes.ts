@@ -6,7 +6,7 @@ import type {
   ProductId,
   ProductSearch
 } from './products.schema'
-import * as controller from './products.controller'
+import { controller } from './products.controller'
 import { validations } from './products.validations'
 import { addSchemas } from '../../utils/schema'
 

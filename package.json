@@ -14,7 +14,7 @@
     "lint:fix": "eslint",
     "prepare": "husky",
     "release:first": "npm run release -- --first-release",
-    "start": "tsc && node dist/server.js",
+    "start": "tsc && node dist/src/server.js",
     "start:dev": "node --watch -r ts-node/register src/server.ts",
     "test": "jest",
     "test:watch": "npm test -- --watch"

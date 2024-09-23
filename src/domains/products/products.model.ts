@@ -18,7 +18,7 @@ type GetAllResponse = {
 
 const collection = 'products.json'
 
-export const create = async (payload: ProductPayload): Promise<Product> => {
+const create = async (payload: ProductPayload): Promise<Product> => {
   const databasePath = join(config.database, collection)
 
   const data = await readFile(databasePath, { encoding: 'utf-8' })
@@ -37,9 +37,7 @@ export const create = async (payload: ProductPayload): Promise<Product> => {
   return product
 }
 
-export const getAll = async (
-  filters: ProductPagination
-): Promise<GetAllResponse> => {
+const getAll = async (filters: ProductPagination): Promise<GetAllResponse> => {
   const databasePath = join(config.database, collection)
 
   const data = await readFile(databasePath, { encoding: 'utf-8' })
@@ -54,7 +52,7 @@ export const getAll = async (
   }
 }
 
-export const getById = async (id: string): Promise<Product | undefined> => {
+const getById = async (id: string): Promise<Product | undefined> => {
   const databasePath = join(config.database, collection)
 
   const data = await readFile(databasePath, { encoding: 'utf-8' })
@@ -63,9 +61,7 @@ export const getById = async (id: string): Promise<Product | undefined> => {
   return products.find(product => product.id === id)
 }
 
-export const search = async (
-  search: ProductSearch
-): Promise<GetAllResponse> => {
+const search = async (search: ProductSearch): Promise<GetAllResponse> => {
   const databasePath = join(config.database, collection)
 
   const data = await readFile(databasePath, { encoding: 'utf-8' })
@@ -77,4 +73,11 @@ export const search = async (
     data: matches,
     total: products.length
   }
+}
+
+export const model = {
+  create,
+  getAll,
+  getById,
+  search
 }
