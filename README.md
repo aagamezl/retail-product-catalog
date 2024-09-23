@@ -7,7 +7,7 @@ Retail Product Catalog with Fuzzy Search Capability.
 - Clone the Repository.
 - Run `npm i` to install the dependencies.
 - Run `npm run start:dev` to run the project in development mode.
-- Run `npm run start` to run the project in development mode.
+- Run `npm run start` to run the project in production mode.
 
 ## Configuration Options
 
